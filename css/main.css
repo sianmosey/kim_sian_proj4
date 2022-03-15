@@ -1,0 +1,74 @@
+/* CSS Document */
+
+@media (max-width: 641px) {
+
+#container
+{
+    
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+}
+
+#box1
+{
+    background-color: #1d3ceb;
+    width: 0 auto;
+    /*width: 100%;*/
+    height: 70px;
+}
+
+#box2
+{
+    background-color: #9e04f7;
+    width: 0 auto;
+    /*width: 100%;*/
+    height: 70px;
+}
+
+#box3
+{
+    background-color: rgb(119, 115, 115);
+    width: 0 auto;
+    /*width: 100%;*/
+    height: 70px;
+}
+
+#box4
+{
+    background-color: #774e11;
+    width: 0 auto;
+    /*width: 100%;*/
+    height: 70px;
+}
+
+}
+/****************************** Media Q's *******************************/
+@media screen and (max-width: 600px) {
+    
+    #box1
+    {
+        background-color: #cc11b3;
+        width: 50%;
+    }
+
+    #box2
+    {
+        background-color: #ff0000;
+        width: 50%;
+    }
+
+    #box3
+    {
+        background-color: #333;
+        width: 50%;
+        visibility: hidden;
+    }
+
+    #box4
+    {
+        background-color: #18e845;
+        width: 50%;
+        visibility: hidden;
+    }
+}
